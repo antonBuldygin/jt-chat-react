@@ -7,6 +7,7 @@ import ButtonWithConfirmation from "./components/button/button-with-confirmation
 
 function App() {
   const [messages, dispatch] = useReducer(messagesReducer, initialMessages);
+
   return <>
     <header className="page-header">
       <h1 className="page-title">Online Chat</h1>
